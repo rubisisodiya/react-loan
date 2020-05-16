@@ -30,7 +30,7 @@ class SideBar extends Component {
         
       return (
           <div>
-              <h2 className="rec">Last 15 Values</h2>
+              <h2 className="header">Last 15 Values</h2>
                 <ul>
                     {temp1}
                 </ul>

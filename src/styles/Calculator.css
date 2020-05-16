@@ -93,7 +93,7 @@ li:hover, li:active{
 
 }
 
-.abc{
+.load{
   display:inline;
   text-align: center;
   margin: 10px;
@@ -104,12 +104,14 @@ li:hover, li:active{
 .xyz{
   margin-top:20px;
   
+  
 }
 
 .slider{
   margin: 30px;
+  
 }
-.rec{
+.header{
   background-color:#9ACD32;
   margin-bottom: 5px;
 }

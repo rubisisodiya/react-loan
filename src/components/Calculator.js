@@ -72,7 +72,7 @@ class Calculator extends Component {
         },
       )
       .catch(err => {
-        // *** Handle/display error here
+        
       });
   }
 
@@ -150,7 +150,7 @@ class Calculator extends Component {
       
       <Col sm={8}>
       <div className="App col-sm-8">
-       <h1 className="abc"> <strong>Loan Calculator</strong></h1>
+       <h1 className="load"> <strong>Loan Calculator</strong></h1>
        <div className="slider">
        <h4 className="mt-3">Select Amount: ${amountValue}</h4>
        <InputRange
@@ -177,7 +177,7 @@ class Calculator extends Component {
        </div>
        
 
-          <div className="xyz">
+          <div className="header">
             <h6 className="mt-3 abc">Monthly Payment $: <strong>{this.state.monthlyPayment}</strong> </h6>
             <h6 className="abc">Interest %: <strong>{Math.round(this.state.interestRate* 100)}</strong></h6>
           </div>
